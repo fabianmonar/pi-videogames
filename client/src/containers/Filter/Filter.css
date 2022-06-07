@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.filter {
+    color: beige;
+    border-color: red;
+    display: flex;
+    width: 480px;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter div {
+    width: 160px;
+}
+
+.filter select {
+    width: 145px;
+    border: 1px solid rgb(244, 237, 237);
+    border-radius: 10px;
+    background: none;
+    margin: 5px;
+}
+
+.filter select:hover {
+    background-color: rgba(23, 25, 85, 0.731);
+}
+
+.filter option {
+    background: none;
+}
